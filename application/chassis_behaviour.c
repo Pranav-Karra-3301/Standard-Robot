@@ -38,7 +38,7 @@
             you can name third param to 'xxx_angle_set.
         CHASSIS_VECTOR_NO_FOLLOW_YAW : 'vx' and 'vy' are speed control, 'wz' is rotation speed control.
         CHASSIS_VECTOR_RAW : will use 'vx' 'vy' and 'wz'  to linearly calculate four wheel current set, 
-            current set will be derectly sent to can bus.
+            current set will be directly sent to can bus.
     4. in the last of "chassis_behaviour_control_set" function, add
         else if(chassis_behaviour_mode == CHASSIS_XXX_XXX)
         {
